@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-color:white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color:rgb(46, 46, 58);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .profile {
+            /* text-align: center; */
+            padding: 40px 20px;
+            background:rgb(217, 227, 241);
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .projects {
+            /* text-align: center; */
+            padding: 40px 20px;
+        }
+        .project-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .project-buttons button {
+            background-color:rgb(56, 56, 68);
+            color: white;
+            border: none;
+            padding: 20px 100px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            background: rgb(181, 179, 201);
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <span>Portfolio của TSUBASA</span>
+        <div>
+            <a href="home.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="profile" >
+        <div style="display:flex;align-items: flex-start;gap: 10px;max-width: 800px;">
+        <img src="https://th.bing.com/th/id/OIP.5zLM2t-_Pe-P-yeklgA17QHaNL?rs=1&pid=ImgDetMain" alt="Avatar">
+        <h2> Xin chao toi la TSUBASA.Mot nha phat trien web sang tao.</h2>
+        </div>
+    </div>
+    <div class="projects">
+        <h3>Du an cua toi.</h3>
+        <div class="project-buttons">
+            
+            <button>Du an 1</button>
+            <button>Du an 2</button>
+            <button>Du an 3</button>
+            <button>Du an 4</button>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <p>Ket noi toi voi tren<a href="https://www.linkedin.com/">Linkedin</a>|<a href="https://github.com/">GitHup</a></p>
+    </div>
+    
+</body>
+</html>
